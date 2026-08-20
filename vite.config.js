@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 
+
 export default defineConfig({
-  base: './',
+  base: '/baltica-home/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
