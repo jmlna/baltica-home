@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="pl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baltica Home | Domowa mokra karma dla kotów</title>
+  <meta name="description" content="Baltica Home | Mokra karma dla kotów z 98% świeżego mięsa i aromatycznego rosołu. Zero zbóż, cukru i sztucznych barwników. Naturalne nawodnienie dla zdrowych nerek." />
+  <meta name="theme-color" content="#FAF8F5" />
+  <link rel="icon" type="image/jpeg" href="https://balticapets.pl/img/logo-1719391923.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&display=swap" />
+</head>
+<body class="overflow-x-hidden bg-cream-50 text-muted antialiased">
+<!-- ===== NAVBAR ===== -->
+<header id="main-header" class="fixed inset-x-0 top-0 z-40 bg-transparent transition-all duration-300">
+  <nav class="flex h-16 items-center justify-between px-4 sm:px-8" aria-label="Nawigacja główna">
+    <a href="#top" class="flex items-center gap-2" aria-label="Baltica Home — strona główna">
+      <img src="https://balticapets.pl/img/logo-1719391923.jpg" alt="Logo Baltica" class="h-9 w-auto" width="36" height="36" />
+    </a>
+    <a href="https://balticapets.pl/pl/288-kot" target="_blank" rel="noopener" data-cta-location="navbar" class="btn-primary hidden md:inline-flex">Przejdź do sklepu</a>
+  </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="top" class="relative flex min-h-screen items-center overflow-hidden bg-cream-50 pt-24 sm:pt-28 lg:h-screen lg:min-h-0">
+  <div class="mx-auto w-full max-w-7xl px-4 py-10 sm:px-8 sm:py-12">
+    <div class="grid grid-cols-1 gap-x-8 gap-y-4 lg:grid-cols-2 lg:items-center">
+      <div class="flex justify-center lg:col-span-2 lg:row-start-1 lg:justify-start">
+        <p class="badge-soft">Mokra karma premium dla kotów</p>
+      </div>
+
+      <!-- Can image with cartwheel shine (mobile: between badge and H1; desktop: right column) -->
+      <div class="relative flex justify-center lg:col-start-2 lg:row-start-2 lg:justify-center lg:w-full">
+        <div class="pointer-events-none absolute inset-0 -z-10 flex items-center justify-center" aria-hidden="true">
+          <div class="hero-sunburst h-64 w-64 animate-spin-slow rounded-full sm:h-[24rem] sm:w-[24rem]"></div>
+          <div class="absolute h-52 w-52 animate-shine rounded-full bg-gradient-to-br from-sage-light via-sage/30 to-sage-light blur-3xl sm:h-80 sm:w-80"></div>
+        </div>
+        <img id="hero-can-mockup" src="./src/assets/images/hero-cat.png" alt="Rudy kot śpiący obok puszki karmy Baltica Home" class="relative w-full animate-float transition-transform duration-300 hover:scale-105" width="800" height="600" fetchpriority="high" decoding="async" />
+      </div>
+
+      <div class="text-center lg:col-start-1 lg:row-start-2 lg:text-left">
+        <h1 class="font-display mt-3 text-3xl font-extrabold leading-tight tracking-tight text-ink sm:text-5xl lg:text-6xl">
+          Prawdziwe mięso, domowy klimat.
+        </h1>
+
+        <p class="mt-4 max-w-xl text-base text-muted sm:text-lg lg:mx-0">
+          Baltica Home to mokra karma, która łączy czysty, domowy skład z miłością do kotów. Wybierz dla swojego pupila to, co najlepsze, każdego dnia.
+        </p>
+
+        <ul class="mt-8 w-full max-w-xl space-y-2 text-left sm:space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-sage text-[10px] font-bold text-white" aria-hidden="true">✓</span>
+            <span class="text-sm font-semibold text-ink">98% świeżego mięsa i aromatycznego rosołu</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-sage text-[10px] font-bold text-white" aria-hidden="true">✓</span>
+            <span class="text-sm font-semibold text-ink">Zero zbóż, cukru i sztucznych barwników</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-sage text-[10px] font-bold text-white" aria-hidden="true">✓</span>
+            <span class="text-sm font-semibold text-ink">Naturalne nawodnienie dla zdrowych nerek</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-sage text-[10px] font-bold text-white" aria-hidden="true">✓</span>
+            <span class="text-sm font-semibold text-ink">Pyszny smak, który pokocha nawet wybredny kot</span>
+          </li>
+        </ul>
+
+        <div class="mt-8 flex flex-col justify-center gap-4 sm:flex-row lg:justify-start">
+          <a href="#smaki" data-cta-location="hero" class="btn-primary">Zobacz ofertę</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SMAKI ===== -->
+<section id="smaki" class="bg-cream-100 py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">Poznaj nasze smaki</h2>
+      <p class="mt-4 text-lg text-muted">Cztery przepyszne receptury, które pokocha Twój kot.</p>
+    </div>
+
+    <!-- Carousel controls (mobile only) -->
+    <div class="mt-8 flex items-center justify-center gap-3 md:hidden">
+      <button type="button" id="carousel-prev" class="flex h-9 w-9 items-center justify-center rounded-full border border-soft bg-surface text-sage-hover transition hover:bg-sage-light focus:outline-none focus:ring-2 focus:ring-sage" aria-label="Poprzedni smak">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
+      </button>
+      <button type="button" id="carousel-next" class="flex h-9 w-9 items-center justify-center rounded-full border border-soft bg-surface text-sage-hover transition hover:bg-sage-light focus:outline-none focus:ring-2 focus:ring-sage" aria-label="Następny smak">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+      </button>
+    </div>
+
+    <!-- Pagination dots (mobile only) -->
+    <div id="carousel-dots" class="mt-4 flex items-center justify-center gap-2 md:hidden" role="tablist" aria-label="Wskaźniki karuzeli">
+      <button type="button" data-dot="0" class="dot h-2 w-2 rounded-full bg-sage-light/50 transition-colors focus:outline-none focus:ring-2 focus:ring-sage" aria-label="Strona 1"></button>
+      <button type="button" data-dot="1" class="dot h-2 w-2 rounded-full bg-sage-light/50 transition-colors focus:outline-none focus:ring-2 focus:ring-sage" aria-label="Strona 2"></button>
+      <button type="button" data-dot="2" class="dot h-2 w-2 rounded-full bg-sage-light/50 transition-colors focus:outline-none focus:ring-2 focus:ring-sage" aria-label="Strona 3"></button>
+      <button type="button" data-dot="3" class="dot h-2 w-2 rounded-full bg-sage-light/50 transition-colors focus:outline-none focus:ring-2 focus:ring-sage" aria-label="Strona 4"></button>
+    </div>
+
+    <!-- Carousel track: horizontal scroll-snap on mobile, grid on md+ -->
+    <div id="flavor-carousel" class="no-scrollbar mt-8 flex snap-x snap-mandatory gap-6 overflow-x-auto pb-4 md:grid md:grid-cols-4 md:overflow-visible md:pb-0">
+      <article class="card-cozy flex w-[85%] shrink-0 snap-start flex-col p-6 sm:w-[45%] md:w-auto">
+        <div class="flex justify-center">
+          <img src="./src/assets/images/can-losos-indyk.png" alt="Puszka Baltica Home — Łosoś z Indykiem" class="h-40 w-auto transition-transform duration-300 hover:scale-105" width="200" height="240" loading="lazy" />
+        </div>
+        <div class="mt-4 text-center">
+          <h3 class="text-xl font-bold text-ink">Łosoś z Indykiem</h3>
+          <ul class="mt-3 space-y-1 text-left text-sm text-muted">
+            <li>Delikatne mięso dla wrażliwych brzuszków</li>
+            <li>Cenne kwasy Omega-3</li>
+            <li>Idealne na co dzień</li>
+          </ul>
+        </div>
+        <div class="mt-auto pt-5">
+          <a href="https://balticapets.pl/pl/288-kot" target="_blank" rel="noopener" data-cta-location="product-card" class="btn-primary w-full">Sprawdź</a>
+        </div>
+      </article>
+
+      <article class="card-cozy flex w-[85%] shrink-0 snap-start flex-col p-6 sm:w-[45%] md:w-auto">
+        <div class="flex justify-center">
+          <img src="./src/assets/images/can-dorsz-kurczak.png" alt="Puszka Baltica Home — Dorsz z Kurczakiem" class="h-40 w-auto transition-transform duration-300 hover:scale-105" width="200" height="240" loading="lazy" />
+        </div>
+        <div class="mt-4 text-center">
+          <h3 class="text-xl font-bold text-ink">Dorsz z Kurczakiem</h3>
+          <ul class="mt-3 space-y-1 text-left text-sm text-muted">
+            <li>Lekkostrawna kompozycja</li>
+            <li>Łagodne białko z ryb i drobiu</li>
+            <li>Wspiera zdrowy apetyt</li>
+          </ul>
+        </div>
+        <div class="mt-auto pt-5">
+          <a href="https://balticapets.pl/pl/288-kot" target="_blank" rel="noopener" data-cta-location="product-card" class="btn-primary w-full">Sprawdź</a>
+        </div>
+      </article>
+
+      <article class="card-cozy flex w-[85%] shrink-0 snap-start flex-col p-6 sm:w-[45%] md:w-auto">
+        <div class="flex justify-center">
+          <img src="./src/assets/images/can-krolik-losos.png" alt="Puszka Baltica Home — Królik z Łososiem" class="h-40 w-auto transition-transform duration-300 hover:scale-105" width="200" height="240" loading="lazy" />
+        </div>
+        <div class="mt-4 text-center">
+          <h3 class="text-xl font-bold text-ink">Królik z Łososiem</h3>
+          <ul class="mt-3 space-y-1 text-left text-sm text-muted">
+            <li>Wyjątkowy, delikatny smak</li>
+            <li>Wysokiej jakości białko</li>
+            <li>Dla kocich smakoszy</li>
+          </ul>
+        </div>
+        <div class="mt-auto pt-5">
+          <a href="https://balticapets.pl/pl/288-kot" target="_blank" rel="noopener" data-cta-location="product-card" class="btn-primary w-full">Sprawdź</a>
+        </div>
+      </article>
+
+      <article class="card-cozy flex w-[85%] shrink-0 snap-start flex-col p-6 sm:w-[45%] md:w-auto">
+        <div class="flex justify-center">
+          <img src="./src/assets/images/can-sielawa.png" alt="Puszka Baltica Home — Bałtycka Sielawa" class="h-40 w-auto transition-transform duration-300 hover:scale-105" width="200" height="240" loading="lazy" />
+        </div>
+        <div class="mt-4 text-center">
+          <h3 class="text-xl font-bold text-ink">Bałtycka Sielawa</h3>
+          <ul class="mt-3 space-y-1 text-left text-sm text-muted">
+            <li>Świeże ryby z Bałtyku</li>
+            <li>Bogactwo naturalnego wywaru</li>
+            <li>Prosty, domowy skład</li>
+          </ul>
+        </div>
+        <div class="mt-auto pt-5">
+          <a href="https://balticapets.pl/pl/288-kot" target="_blank" rel="noopener" data-cta-location="product-card" class="btn-primary w-full">Sprawdź</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DLACZEGO BALITICA HOME ===== -->
+<section id="dlaczego" class="bg-cream-50 py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">Dlaczego Baltica Home?</h2>
+      <p class="mt-4 text-lg text-muted">Proste powody, dla których warto dbać o kota mokrą, naturalną karmą.</p>
+    </div>
+
+    <div class="mt-12 grid gap-6 md:grid-cols-3 lg:gap-8">
+      <article class="card-cozy p-8">
+        <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-sage-light" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sage-hover" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-ink">Zdrowe nerki bez wysiłku</h3>
+        <p class="mt-3 text-sm leading-relaxed text-muted">80% naturalnej wilgoci. Kot pije jedząc, a jego nerki i pęcherz pozostają w dobrej kondycji.</p>
+      </article>
+
+      <article class="card-cozy p-8">
+        <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-sage-light" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sage-hover" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.4 15.63a7.875 6 135 1 1 6.23-6.23 4.5 3.43 135 0 0-6.23 6.23" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="m8.29 12.71-5.29 5.29" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-ink">Czysty skład jak z domowej kuchni</h3>
+        <p class="mt-3 text-sm leading-relaxed text-muted">Tylko mięso i witaminy, zero chemii. Skład, który możesz przeczytać i zrozumieć bez słownika.</p>
+      </article>
+
+      <article class="card-cozy p-8">
+        <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-sage-light" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sage-hover" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-ink">Koniec z wybrzydzaniem</h3>
+        <p class="mt-3 text-sm leading-relaxed text-muted">Aromatyczny bałtycki wywar rybny zachęca do jedzenia nawet najbardziej kapryśne kociaki.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" class="bg-cream-100 py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
+  <div class="mx-auto max-w-4xl px-4 sm:px-8">
+    <div class="text-center">
+      <h2 class="text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">Często zadawane pytania</h2>
+      <p class="mt-4 text-lg text-muted">Wszystko, co musisz wiedzieć o karmieniu mokrą karmą, prostym językiem.</p>
+    </div>
+
+    <div class="mt-10 space-y-3">
+      <div data-accordion-item class="card-cozy transition-all duration-300 hover:border-sage hover:shadow-sm">
+        <h3>
+          <button type="button" data-accordion-trigger aria-expanded="false" aria-controls="faq-panel-1" class="flex w-full items-center justify-between gap-4 rounded-2xl px-5 py-4 text-left focus:outline-none focus:ring-2 focus:ring-sage md:px-6">
+            <span class="faq-question-text text-sm font-bold text-ink md:text-lg">Dlaczego kot musi jeść mokrą karmę?</span>
+            <span data-accordion-icon class="h-6 w-6 shrink-0 text-sage-hover transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+            </span>
+          </button>
+        </h3>
+        <div data-accordion-content id="faq-panel-1" class="hidden px-5 pb-5 text-sm leading-relaxed text-muted md:px-6">
+          Bo koty z natury mało piją, a woda w karmie chroni ich nerki i pęcherz. Mokra karma dostarcza nawodnienia razem z posiłkiem, dokładnie tak, jak w naturze.
+        </div>
+      </div>
+
+      <div data-accordion-item class="card-cozy transition-all duration-300 hover:border-sage hover:shadow-sm">
+        <h3>
+          <button type="button" data-accordion-trigger aria-expanded="false" aria-controls="faq-panel-2" class="flex w-full items-center justify-between gap-4 rounded-2xl px-5 py-4 text-left focus:outline-none focus:ring-2 focus:ring-sage md:px-6">
+            <span class="faq-question-text text-sm font-bold text-ink md:text-lg">Czy karma nadaje się dla kotów po sterylizacji?</span>
+            <span data-accordion-icon class="h-6 w-6 shrink-0 text-sage-hover transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+            </span>
+          </button>
+        </h3>
+        <div data-accordion-content id="faq-panel-2" class="hidden px-5 pb-5 text-sm leading-relaxed text-muted md:px-6">
+          Tak, ma niską zawartość węglowodanów i pomaga utrzymać prawidłową wagę. To dobry wybór na co dzień dla wykastrowanych i wysterylizowanych kotów.
+        </div>
+      </div>
+
+      <div data-accordion-item class="card-cozy transition-all duration-300 hover:border-sage hover:shadow-sm">
+        <h3>
+          <button type="button" data-accordion-trigger aria-expanded="false" aria-controls="faq-panel-3" class="flex w-full items-center justify-between gap-4 rounded-2xl px-5 py-4 text-left focus:outline-none focus:ring-2 focus:ring-sage md:px-6">
+            <span class="faq-question-text text-sm font-bold text-ink md:text-lg">Jak zacząć karmić karmą Baltica Home?</span>
+            <span data-accordion-icon class="h-6 w-6 shrink-0 text-sage-hover transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+            </span>
+          </button>
+        </h3>
+        <div data-accordion-content id="faq-panel-3" class="hidden px-5 pb-5 text-sm leading-relaxed text-muted md:px-6">
+          Mieszaj ją stopniowo przez 5–7 dni z dotychczasowym jedzeniem. Zaczynaj od małych ilości i zwiększaj je każdego dnia, obserwując reakcję kota.
+        </div>
+      </div>
+
+      <div data-accordion-item class="card-cozy transition-all duration-300 hover:border-sage hover:shadow-sm">
+        <h3>
+          <button type="button" data-accordion-trigger aria-expanded="false" aria-controls="faq-panel-4" class="flex w-full items-center justify-between gap-4 rounded-2xl px-5 py-4 text-left focus:outline-none focus:ring-2 focus:ring-sage md:px-6">
+            <span class="faq-question-text text-sm font-bold text-ink md:text-lg">Gdzie mogę kupić karmę i jak szybko dotrze?</span>
+            <span data-accordion-icon class="h-6 w-6 shrink-0 text-sage-hover transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+            </span>
+          </button>
+        </h3>
+        <div data-accordion-content id="faq-panel-4" class="hidden px-5 pb-5 text-sm leading-relaxed text-muted md:px-6">
+          Bezpośrednio w oficjalnym sklepie BalticaPets.pl z szybką dostawą. Zamów online, a karma trafi prosto pod Twoje drzwi.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KONTAKT ===== -->
+<section id="kontakt" class="bg-cream-50 py-16 lg:py-24 scroll-mt-20 lg:scroll-mt-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">Skontaktuj się z nami</h2>
+      <p class="mt-4 text-lg text-muted">Odwiedź nasz sklep lub znajdź nas w mediach społecznościowych.</p>
+    </div>
+
+    <div class="mt-12 grid gap-6 md:grid-cols-3">
+      <a href="https://balticapets.pl/" target="_blank" rel="noopener noreferrer" data-cta-location="contact" class="card-cozy group flex flex-col items-center p-8 text-center transition hover:border-sage hover:shadow-lg">
+        <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-sage-light transition group-hover:bg-sage" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sage-hover transition group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-bold text-ink">Sklep internetowy</h3>
+        <p class="mt-2 text-sm text-muted">www.BalticaPets.pl</p>
+      </a>
+
+      <a href="https://www.facebook.com/BalticaPets" target="_blank" rel="noopener noreferrer" data-cta-location="contact" class="card-cozy group flex flex-col items-center p-8 text-center transition hover:border-sage hover:shadow-lg">
+        <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-sage-light transition group-hover:bg-sage" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sage-hover transition group-hover:text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-bold text-ink">Facebook</h3>
+        <p class="mt-2 text-sm text-muted">@BalticaPets</p>
+      </a>
+
+      <a href="https://www.instagram.com/balticapets/" target="_blank" rel="noopener noreferrer" data-cta-location="contact" class="card-cozy group flex flex-col items-center p-8 text-center transition hover:border-sage hover:shadow-lg">
+        <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-sage-light transition group-hover:bg-sage" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sage-hover transition group-hover:text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-bold text-ink">Instagram</h3>
+        <p class="mt-2 text-sm text-muted">@BalticaPets</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+ <footer class="relative overflow-hidden bg-sage-hover py-12">
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-8">
+    <div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+      <div class="flex items-center gap-3">
+        <img src="https://balticapets.pl/img/logo-1719391923.jpg" alt="Logo Baltica Home" class="h-10 w-auto" />
+      </div>
+      <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-sage-light" aria-label="Stopka">
+        <a href="https://balticapets.pl/pl/288-kot" target="_blank" rel="noopener" data-cta-location="footer" class="transition hover:text-white">Przejdź do sklepu</a>
+        <a href="#smaki" data-cta-location="footer" class="transition hover:text-white">Nasze smaki</a>
+        <a href="#faq" data-cta-location="footer" class="transition hover:text-white">FAQ</a>
+        <a href="#kontakt" data-cta-location="footer" class="transition hover:text-white">Kontakt</a>
+      </nav>
+    </div>
+    <div class="mt-8 flex flex-col items-center justify-between gap-4 border-t border-white/20 pt-6 text-xs text-sage-light md:flex-row">
+      <p>&#169; 2026 Baltica Home. Wszystkie prawa zastrzeżone.</p>
+      <span class="text-xs text-sage-light">Wszystkie receptury zgodne z FEDIAF / AFFCO / EU 2020/354</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== COOKIE CONSENT BANNER ===== -->
+<div id="cookie-banner" class="fixed inset-x-0 top-0 z-[60] hidden border-b border-soft bg-surface px-3 py-2 sm:bottom-0 sm:top-auto sm:border-t sm:px-4 sm:py-4">
+  <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 sm:gap-4 sm:flex-row">
+    <p class="text-center text-xs text-muted sm:text-sm sm:text-left">Dbamy o Twój komfort. Strona korzysta z plikami cookie w celu optymalizacji działania.</p>
+    <div class="flex shrink-0 items-center gap-2 sm:gap-3">
+      <button type="button" id="cookie-accept" class="btn-primary text-xs px-3 py-2">Akceptuję</button>
+      <button type="button" id="cookie-settings" class="btn-secondary text-xs px-3 py-2">Ustawienia</button>
+    </div>
+  </div>
+</div>
+
+<!-- ::SECTIONS:: -->
+<script type="module" src="./src/scripts/carousel.js"></script>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

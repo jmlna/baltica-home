@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Fish / Marine EPA DHA wave -->
+  <path d="M 6 12 C 10 7, 18 7, 22 12 C 18 17, 10 17, 6 12 Z"/>
+  <path d="M 2 8 L 6 12 L 2 16"/>
+  <circle cx="16" cy="11" r="1" fill="currentColor"/>
+  <path d="M 9 12 C 11 10, 13 14, 15 12" stroke-width="1.5"/>
+</svg>
